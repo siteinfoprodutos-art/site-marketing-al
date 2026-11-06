@@ -259,10 +259,10 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     name: 'FourCred — Plataforma de Soluções Financeiras & Crédito',
     category: 'sites',
     categoryLabel: 'Correspondente Bancário',
-    coverImage: '/src/assets/images/fourcred_website_mockup_1793896062810.jpg',
+    coverImage: '/src/assets/images/mockup-fourcred.jpeg',
     gallery: [
-      '/src/assets/images/fourcred_website_mockup_1793896062810.jpg',
-      '/src/assets/images/fourcred_video_showcase_1793896062472.jpg'
+      '/src/assets/images/mockup-fourcred.jpeg',
+      '/src/assets/images/mockup-fourcred-video.jpeg'
     ],
     summary: 'Plataforma web profissional desenvolvida para a FourCred, combinando simulação de crédito, navegação intuitiva e captação direta de clientes.',
     serviceType: 'Criação de Site & Estrutura Comercial',
@@ -286,10 +286,10 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     name: 'FourCred — Produção Audiovisual & Conteúdos de Crédito',
     category: 'videos',
     categoryLabel: 'Correspondente Bancário',
-    coverImage: '/src/assets/images/fourcred_video_showcase_1793896062472.jpg',
+    coverImage: '/src/assets/images/mockup-fourcred-video.jpeg',
     gallery: [
-      '/src/assets/images/fourcred_video_showcase_1793896062472.jpg',
-      '/src/assets/images/fourcred_website_mockup_1793896062810.jpg'
+      '/src/assets/images/mockup-fourcred-video.jpeg',
+      '/src/assets/images/mockup-fourcred.jpeg'
     ],
     summary: 'Produção, edição e motion graphics de vídeos dinâmicos em formato vertical para o Instagram oficial da FourCred.',
     serviceType: 'Produção Audiovisual & Redes Sociais',
