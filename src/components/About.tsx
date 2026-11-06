@@ -1,6 +1,7 @@
 import React from 'react';
 import { Lightbulb, Cpu, TrendingUp } from 'lucide-react';
 import { AGENCY_CONFIG } from '../data/agencyData';
+import aboutImage from '../assets/images/agency_creativity_tech_1793894695236.jpg';
 
 export const About: React.FC = () => {
   const pillars = [
@@ -94,7 +95,7 @@ export const About: React.FC = () => {
 
               <div className="relative rounded-2xl overflow-hidden border border-[#59A5FF]/20 bg-[#091426] shadow-2xl">
                 <img
-                  src="/src/assets/images/agency_creativity_tech_1793894695236.jpg"
+                  src={aboutImage}
                   alt="Processo criativo e desenvolvimento tecnológico na AL Studio Tech"
                   className="w-full h-80 sm:h-96 md:h-[440px] object-cover transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"

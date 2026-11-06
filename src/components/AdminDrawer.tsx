@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { ProjectItem, LeadSubmission, ProjectCategory } from '../types';
 import { SERVICES, CLIENT_SEGMENTS, AGENCY_CONFIG } from '../data/agencyData';
+import portfolioWebImage from '../assets/images/portfolio_web_showcase_1793894694831.jpg';
 
 interface AdminDrawerProps {
   isOpen: boolean;
@@ -38,7 +39,7 @@ export const AdminDrawer: React.FC<AdminDrawerProps> = ({
     name: '',
     category: 'sites' as ProjectCategory,
     categoryLabel: 'Sites e Landing Pages',
-    coverImage: '/src/assets/images/portfolio_web_showcase_1793894694831.jpg',
+    coverImage: portfolioWebImage,
     summary: '',
     serviceType: 'Criação de Site Institucional',
     objective: '',

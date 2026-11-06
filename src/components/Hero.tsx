@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Sparkles, Monitor, Video, Share2, Palette, CheckCircle2 } from 'lucide-react';
 import { AGENCY_CONFIG } from '../data/agencyData';
+import heroImage from '../assets/images/hero_digital_studio_tech_1793894694018.jpg';
 
 interface HeroProps {
   onStartProject: () => void;
@@ -109,7 +110,7 @@ export const Hero: React.FC<HeroProps> = ({
               
               <div className="relative rounded-2xl overflow-hidden border border-[#59A5FF]/30 bg-[#101F38] shadow-2xl shadow-black/80">
                 <img
-                  src="/src/assets/images/hero_digital_studio_tech_1793894694018.jpg"
+                  src={heroImage}
                   alt="Estúdio AL Studio Tech em produção digital e tecnológica"
                   className="w-full h-80 sm:h-96 lg:h-[430px] object-cover transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"

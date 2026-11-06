@@ -1,4 +1,10 @@
 import { ServiceItem, ProjectItem, ClientSegmentItem } from '../types';
+import fourCredVideoImage from '../assets/images/mockup-fourcred-video.jpeg';
+import fourCredWebsiteImage from '../assets/images/mockup-fourcred.jpeg';
+import imobiliariaImage from '../assets/images/imobiliaria_showcase_1793899004049.jpg';
+import lanchoneteImage from '../assets/images/lanchonete_burger_showcase_1793899003549.jpg';
+import pastelariaImage from '../assets/images/pastelaria_gastronomia_showcase_1793899004385.jpg';
+import sorveteriaImage from '../assets/images/sorveteria_acai_showcase_1793899002894.jpg';
 
 export const AGENCY_CONFIG = {
   name: 'AL STUDIO TECH',
@@ -259,10 +265,10 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     name: 'FourCred — Plataforma de Soluções Financeiras & Crédito',
     category: 'sites',
     categoryLabel: 'Correspondente Bancário',
-    coverImage: '/src/assets/images/mockup-fourcred.jpeg',
+    coverImage: fourCredWebsiteImage,
     gallery: [
-      '/src/assets/images/mockup-fourcred.jpeg',
-      '/src/assets/images/mockup-fourcred-video.jpeg'
+      fourCredWebsiteImage,
+      fourCredVideoImage
     ],
     summary: 'Plataforma web profissional desenvolvida para a FourCred, combinando simulação de crédito, navegação intuitiva e captação direta de clientes.',
     serviceType: 'Criação de Site & Estrutura Comercial',
@@ -286,10 +292,10 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     name: 'FourCred — Produção Audiovisual & Conteúdos de Crédito',
     category: 'videos',
     categoryLabel: 'Correspondente Bancário',
-    coverImage: '/src/assets/images/mockup-fourcred-video.jpeg',
+    coverImage: fourCredVideoImage,
     gallery: [
-      '/src/assets/images/mockup-fourcred-video.jpeg',
-      '/src/assets/images/mockup-fourcred.jpeg'
+      fourCredVideoImage,
+      fourCredWebsiteImage
     ],
     summary: 'Produção, edição e motion graphics de vídeos dinâmicos em formato vertical para o Instagram oficial da FourCred.',
     serviceType: 'Produção Audiovisual & Redes Sociais',
@@ -313,9 +319,9 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     name: 'Luxura Imóveis — Portal Imobiliário & Tours em Reels',
     category: 'sites',
     categoryLabel: 'Imobiliárias',
-    coverImage: '/src/assets/images/imobiliaria_showcase_1793899004049.jpg',
+    coverImage: imobiliariaImage,
     gallery: [
-      '/src/assets/images/imobiliaria_showcase_1793899004049.jpg'
+      imobiliariaImage
     ],
     summary: 'Plataforma imobiliária com busca de lançamentos, fotos em alta definição e integração de vídeos Reels para tour de apartamentos e casas.',
     serviceType: 'Site Imobiliário & Vídeos de Imóveis',
@@ -336,9 +342,9 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     name: 'Scoops & Swirls — Cardápio Digital & Vídeos de Açaí e Gelato',
     category: 'redes',
     categoryLabel: 'Sorveterias & Açaí',
-    coverImage: '/src/assets/images/sorveteria_acai_showcase_1793899002894.jpg',
+    coverImage: sorveteriaImage,
     gallery: [
-      '/src/assets/images/sorveteria_acai_showcase_1793899002894.jpg'
+      sorveteriaImage
     ],
     summary: 'Cardápio interativo via QR Code para mesas, vídeos hiper-atrativos de montagem de taças e promoção de acompanhos de açaí.',
     serviceType: 'Cardápio Digital & Mídias Sociais',
@@ -359,9 +365,9 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     name: 'Burger House — Cardápio Online & Reels Gastronômicos',
     category: 'sites',
     categoryLabel: 'Lanchonetes & Hamburguerias',
-    coverImage: '/src/assets/images/lanchonete_burger_showcase_1793899003549.jpg',
+    coverImage: lanchoneteImage,
     gallery: [
-      '/src/assets/images/lanchonete_burger_showcase_1793899003549.jpg'
+      lanchoneteImage
     ],
     summary: 'Cardápio de lanches e combos com pedido direto via WhatsApp, acompanhado de edição de vídeo em alta definição para tráfego local.',
     serviceType: 'Cardápio Web & Produção de Vídeos',
@@ -382,9 +388,9 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
     name: 'Pastelaria Crocante — Cardápio QR Code & Vídeos de Redes',
     category: 'redes',
     categoryLabel: 'Pastelarias & Gastronomia',
-    coverImage: '/src/assets/images/pastelaria_gastronomia_showcase_1793899004385.jpg',
+    coverImage: pastelariaImage,
     gallery: [
-      '/src/assets/images/pastelaria_gastronomia_showcase_1793899004385.jpg'
+      pastelariaImage
     ],
     summary: 'Cardápio digital para mesas, vídeos curtos mostrando a massa crocante e os recheios generosos para atrair clientes locais.',
     serviceType: 'Cardápio Digital & Conteúdo em Vídeo',
