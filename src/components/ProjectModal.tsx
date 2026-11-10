@@ -141,7 +141,10 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
             {project.isRealClient ? (
               <div className="p-4 rounded-xl bg-emerald-950/40 border border-emerald-500/30 text-xs text-emerald-200 leading-relaxed">
                 <strong className="text-white block mb-0.5">Cliente Real AL Studio Tech:</strong>
-                Este é um case de sucesso real desenvolvido para a <strong>FourCred</strong>. Você pode acessar o site oficial no ar em <a href={project.externalUrl} target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white">{project.externalUrl}</a> e conferir as produções de vídeos no Instagram <a href={project.instagramUrl} target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white">@_fourcred</a>.
+                Este é um case de sucesso real desenvolvido para <strong>{project.name.split('—')[0].trim()}</strong>. Você pode acessar a plataforma oficial no ar em <a href={project.externalUrl} target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white">{project.externalUrl}</a>
+                {project.instagramUrl && (
+                  <> e conferir os conteúdos no Instagram <a href={project.instagramUrl} target="_blank" rel="noopener noreferrer" className="underline font-semibold text-white">{project.instagramUrl}</a></>
+                )}.
               </div>
             ) : (
               <div className="p-4 rounded-xl bg-[#091426] border border-[#59A5FF]/20 text-xs text-[#AAB4C4] leading-relaxed">
@@ -161,7 +164,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
                 rel="noopener noreferrer"
                 className="w-full sm:flex-1 inline-flex items-center justify-center gap-2 py-3.5 px-5 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-[#2878FF] to-[#1E60D0] hover:from-[#1E60D0] hover:to-[#59A5FF] shadow-lg shadow-[#2878FF]/25 transition-all cursor-pointer whitespace-nowrap"
               >
-                <span>Visitar Site da FourCred</span>
+                <span>Visitar Site Ao Vivo ({project.name.split('—')[0].trim()})</span>
                 <ArrowUpRight className="w-4 h-4" />
               </a>
             )}
@@ -173,7 +176,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
                 rel="noopener noreferrer"
                 className="w-full sm:flex-1 inline-flex items-center justify-center gap-2 py-3.5 px-5 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-[#FF7628] to-[#E55F10] hover:from-[#E55F10] hover:to-[#FF7628] shadow-lg shadow-[#FF7628]/25 transition-all cursor-pointer whitespace-nowrap"
               >
-                <span>Ver Instagram @_fourcred</span>
+                <span>Ver Instagram</span>
                 <ArrowUpRight className="w-4 h-4" />
               </a>
             )}
