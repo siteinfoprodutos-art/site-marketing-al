@@ -339,26 +339,28 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
   },
   {
     id: 'proj-sorveteria',
-    name: 'Scoops & Swirls — Cardápio Digital & Vídeos de Açaí e Gelato',
-    category: 'redes',
+    name: 'AçaíVeg — Plataforma de Açaí Artesanal & Muito Sabor',
+    category: 'sites',
     categoryLabel: 'Sorveterias & Açaí',
-    coverImage: sorveteriaImage,
+    coverImage: '/assets/aistudio/mockup_acai_0c37f991.png',
     gallery: [
-      sorveteriaImage
+      '/assets/aistudio/mockup_acai_0c37f991.png'
     ],
-    summary: 'Cardápio interativo via QR Code para mesas, vídeos hiper-atrativos de montagem de taças e promoção de acompanhos de açaí.',
-    serviceType: 'Cardápio Digital & Mídias Sociais',
-    objective: 'Elevar o apetite visual das taças de sorvete e bowls de açaí nas redes sociais e facilitar os pedidos dentro do estabelecimento.',
+    summary: 'Landing page completa e moderna desenvolvida para o AçaíVeg em Caieiras, com cardápio digital, pedido rápido pelo WhatsApp e responsividade total.',
+    serviceType: 'Criação de Site & Cardápio Digital',
+    objective: 'Desenvolver a presença digital do AçaíVeg com experiência fluida, destaque para copos e taças recheadas e conversão direta via WhatsApp.',
     solutions: [
-      'Cardápio digital visual com fotos detalhadas dos acompanhamentos',
-      'Vídeos curtos estilo Reels mostrando calda e textura das taças',
-      'Painel de novidades e destaques de ofertas da semana',
-      'Facilidade para montagem personalizada de copo de açaí pelo cliente'
+      'Design responsivo gourmet com alta taxa de conversão e apetite visual',
+      'Integração com pop-up de pedido rápido direto no WhatsApp',
+      'Cardápio interativo organizado por categorias e acompanhamentos',
+      'Arquitetura ultrarrápida otimizada para smartphones, tablets e computadores'
     ],
-    resultsOrDelivery: 'Modelo pronto de comunicação e cardápio para sorveterias, gelaterias e açaíterias.',
+    resultsOrDelivery: 'Projeto no ar e em operação no endereço oficial https://landing-acaiveg.vercel.app/',
     clientSegment: 'Sorveterias & Açaí',
-    isDemonstration: true,
-    featured: true
+    isDemonstration: false,
+    isRealClient: true,
+    featured: true,
+    externalUrl: 'https://landing-acaiveg.vercel.app/'
   },
   {
     id: 'proj-lanchonete',
