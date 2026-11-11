@@ -355,26 +355,28 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
   },
   {
     id: 'proj-imobiliaria',
-    name: 'Luxura Imóveis — Portal Imobiliário & Tours em Reels',
+    name: 'Adriana Monteiro — Corretora de Imóveis & Consultoria Imobiliária',
     category: 'sites',
-    categoryLabel: 'Imobiliárias',
-    coverImage: imobiliariaImage,
+    categoryLabel: 'Imobiliárias & Corretores',
+    coverImage: '/assets/aistudio/file_00000000b754820e925972b0b402458d_858f4278.png',
     gallery: [
-      imobiliariaImage
+      '/assets/aistudio/file_00000000b754820e925972b0b402458d_858f4278.png'
     ],
-    summary: 'Plataforma imobiliária com busca de lançamentos, fotos em alta definição e integração de vídeos Reels para tour de apartamentos e casas.',
-    serviceType: 'Site Imobiliário & Vídeos de Imóveis',
-    objective: 'Apresentar lançamentos residenciais com elegância, gerando leads qualificados para corretores através de agendamento de visita rápido.',
+    summary: 'Plataforma web completa desenvolvida para a corretora Adriana Monteiro (CRECI-SP), com filtro de imóveis por bairro, estatísticas de autoridade e atendimento rápido via WhatsApp.',
+    serviceType: 'Criação de Site & Estrutura Comercial',
+    objective: 'Desenvolver a autoridade digital e captação de clientes para a corretora Adriana Monteiro, facilitando a busca de imóveis para compra, aluguel ou investimento em SP.',
     solutions: [
-      'Busca dinâmica por bairro, valor e número de quartos',
-      'Apresentação de vídeos Reels com tour guiado de cada empreendimento',
-      'Formulário de interesse integrado direto ao WhatsApp do corretor da vez',
-      'Filtros de pesquisa instantâneos sem recarregar a página'
+      'Design responsivo de alto padrão com busca por tipo de imóvel, bairro e modalidade',
+      'Atendimento e captação direta no WhatsApp com resposta rápida',
+      'Estatísticas de autoridade imobiliária e depoimentos com avaliação média dos clientes',
+      'Arquitetura ultrarrápida adaptada para computadores, tablets e dispositivos móveis'
     ],
-    resultsOrDelivery: 'Solução completa para imobiliárias e corretores que buscam destaque comercial no setor.',
+    resultsOrDelivery: 'Projeto no ar e em operação no endereço oficial https://landing-corretor-phi.vercel.app/',
     clientSegment: 'Imobiliárias & Corretores',
-    isDemonstration: true,
-    featured: true
+    isDemonstration: false,
+    isRealClient: true,
+    featured: true,
+    externalUrl: 'https://landing-corretor-phi.vercel.app/'
   },
   {
     id: 'proj-sorveteria',
