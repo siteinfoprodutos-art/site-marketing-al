@@ -25,9 +25,10 @@ export const Portfolio: React.FC<PortfolioProps> = ({
 
   const nicheTabs = [
     { id: 'todos', label: 'Todos os Nichos' },
+    { id: 'Adegas & Conveniência', label: 'Adegas & Conveniência (Adega Caieiras)' },
     { id: 'Correspondente Bancário & Crédito', label: 'Correspondente Bancário (FourCred)' },
+    { id: 'Sorveterias & Açaí', label: 'Sorveterias & Açaí (AçaíVeg)' },
     { id: 'Imobiliárias & Corretores', label: 'Imobiliárias' },
-    { id: 'Sorveterias & Açaí', label: 'Sorveterias & Açaí' },
     { id: 'Lanchonetes & Hamburguerias', label: 'Lanchonetes & Hamburguerias' },
     { id: 'Pastelarias & Gastronomia Local', label: 'Pastelarias & Gastronomia' },
   ];

@@ -121,6 +121,20 @@ export const SERVICES: ServiceItem[] = [
 
 export const CLIENT_SEGMENTS: ClientSegmentItem[] = [
   {
+    id: 'adegas-conveniencia',
+    name: 'Adegas & Conveniência',
+    icon: 'Flame',
+    description: 'Adegas, distribuidoras de bebidas e lojas de conveniência que desejam acelerar pedidos de vinhos, destilados e combos por delivery.',
+    recommendedSolutions: [
+      'Plataforma web de conveniência e vinhos com catálogo e combos',
+      'Atendimento e pedido rápido direto via WhatsApp',
+      'Cardápio digital de destilados, cervejas e aperitivos',
+      'Campanhas de tráfego local e vídeos de promoções'
+    ],
+    idealFor: 'Adega Caieiras, adegas de bairro, empórios de vinhos e distribuidoras.',
+    whatsappPrompt: 'Olá! Tenho uma adega / loja de conveniência e quero criar uma plataforma e cardápio digital para minhas vendas.'
+  },
+  {
     id: 'correspondente-bancario',
     name: 'Correspondente Bancário & Crédito',
     icon: 'Building2',
@@ -260,6 +274,31 @@ export const CLIENT_SEGMENTS: ClientSegmentItem[] = [
 ];
 
 export const INITIAL_PROJECTS: ProjectItem[] = [
+  {
+    id: 'proj-adega',
+    name: 'Adega Caieiras — Conveniência & Delivery de Vinhos e Destilados',
+    category: 'sites',
+    categoryLabel: 'Adegas & Conveniência',
+    coverImage: '/assets/aistudio/mockup_adega_916e6ccf.png',
+    gallery: [
+      '/assets/aistudio/mockup_adega_916e6ccf.png'
+    ],
+    summary: 'Plataforma web e landing page desenvolvida para a Adega Caieiras, apresentando vinhos, destilados, combos promocionais e pedidos via WhatsApp.',
+    serviceType: 'Criação de Site & Cardápio Digital',
+    objective: 'Desenvolver a presença digital e delivery da Adega Caieiras, destacando marcas premium de vinhos e destilados com conversão direta pelo WhatsApp.',
+    solutions: [
+      'Design responsivo sofisticado em tons bordo e marsala com alta percepção de valor',
+      'Integração com botão de atendimento e pedido rápido via WhatsApp',
+      'Exibição de combos, categorias de destilados e rótulos de vinhos',
+      'Arquitetura ultrarrápida otimizada para celulares, tablets e computadores'
+    ],
+    resultsOrDelivery: 'Projeto no ar e em operação no endereço oficial https://landing-adega.vercel.app/',
+    clientSegment: 'Adegas & Conveniência',
+    isDemonstration: false,
+    isRealClient: true,
+    featured: true,
+    externalUrl: 'https://landing-adega.vercel.app/'
+  },
   {
     id: 'proj-fourcred-web',
     name: 'FourCred — Plataforma de Soluções Financeiras & Crédito',
