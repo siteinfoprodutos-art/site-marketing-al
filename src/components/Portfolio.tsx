@@ -29,7 +29,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({
     { id: 'Correspondente Bancário & Crédito', label: 'Correspondente Bancário (FourCred)' },
     { id: 'Sorveterias & Açaí', label: 'Sorveterias & Açaí (AçaíVeg)' },
     { id: 'Imobiliárias & Corretores', label: 'Imobiliárias & Corretores (Adriana Monteiro)' },
-    { id: 'Lanchonetes & Hamburguerias', label: 'Lanchonetes & Hamburguerias' },
+    { id: 'Lanchonetes & Hamburguerias', label: 'Lanchonetes & Hamburguerias (Brasa Burger)' },
     { id: 'Pastelarias & Gastronomia Local', label: 'Pastelarias & Gastronomia' },
   ];
 

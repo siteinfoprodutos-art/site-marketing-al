@@ -405,26 +405,28 @@ export const INITIAL_PROJECTS: ProjectItem[] = [
   },
   {
     id: 'proj-lanchonete',
-    name: 'Burger House — Cardápio Online & Reels Gastronômicos',
+    name: 'Brasa Burger — Hamburgueria Artesanal & Pedidos Online',
     category: 'sites',
     categoryLabel: 'Lanchonetes & Hamburguerias',
-    coverImage: lanchoneteImage,
+    coverImage: '/assets/aistudio/image_1e8b7114.png',
     gallery: [
-      lanchoneteImage
+      '/assets/aistudio/image_1e8b7114.png'
     ],
-    summary: 'Cardápio de lanches e combos com pedido direto via WhatsApp, acompanhado de edição de vídeo em alta definição para tráfego local.',
-    serviceType: 'Cardápio Web & Produção de Vídeos',
-    objective: 'Aumentar o volume diário de pedidos de delivery e balcão sem pagar comissões para aplicativos de entrega.',
+    summary: 'Landing page gastronômica desenvolvida para a Brasa Burger, com destaque visual em alta definição, botão direto de pedido e integração imediata via WhatsApp.',
+    serviceType: 'Criação de Site & Cardápio Digital',
+    objective: 'Criar uma presença digital irresistível para a Brasa Burger, convertendo visitantes em pedidos rápidos pelo WhatsApp em celulares, tablets e computadores.',
     solutions: [
-      'Cardápio interativo com adicionais de hambúrguer, molhos e bebidas',
-      'Vídeos gastronômicos em slow-motion para publicações de pico de fome',
-      'Cálculo automático da taxa de entrega e envio estruturado no WhatsApp',
-      'Design escuro com cores quentes de alto contraste'
+      'Design responsivo escuro com foco em fotografia gastronômica de alto apetite visual',
+      'Botão de ação imediata "PEDIR" e widget de atendimento rápido via WhatsApp',
+      'Seções organizadas para destaques do cardápio, história da casa e contato',
+      'Arquitetura ultrarrápida otimizada para pedidos pelo celular'
     ],
-    resultsOrDelivery: 'Solução estratégica para lanchonetes e hamburguerias artesanais de alto fluxo.',
+    resultsOrDelivery: 'Projeto no ar e em operação no endereço oficial https://landing-hamburgueria-ten.vercel.app/',
     clientSegment: 'Lanchonetes & Hamburguerias',
-    isDemonstration: true,
-    featured: true
+    isDemonstration: false,
+    isRealClient: true,
+    featured: true,
+    externalUrl: 'https://landing-hamburgueria-ten.vercel.app/'
   },
   {
     id: 'proj-pastelaria',
